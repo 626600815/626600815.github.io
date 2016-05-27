@@ -1,50 +1,33 @@
-# Basic
-title: OneV's Den
-subtitle: 上善若水，人淡如菊
-welcome_message: <a href="https://store.objccn.io/products/" target="_blank">ObjC 中国与 objc.io 合作最新作品《函数式 Swift》已经发布，欢迎试读或者购买</a>
-description: 嗨，我是王巍 (@onevcat)，一名来自中国的 iOS / Unity 开发者。现居日本，就职于 LINE。正在修行，探求创意之源。
-creator: <a href="http://onev.cat">@onevcat</a>
+# This is the default format.
+# For more see: http://jekyllrb.com/docs/permalinks/
+permalink: /:title
+# https://help.github.com/articles/migrating-your-pages-site-from-maruku
+markdown: kramdown
 
-url: "http://onevcat.com"
+highlighter: pygments
+paginate: 20 # pagination based on number of posts
+paginate_path: "page/:num"
 
-permalink: /:year/:month/:title/
+# These paths are to the main pages Jekyll-Bootstrap ships with.
+# Some JB helpers refer to these paths; change them here if needed.
+#
+categories_path : categories.html
+tags_path : tags.html
 
-# Format
-highlighter: plain
-markdown: redcarpet
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", tables]
+BASE_PATH : http://blog.ankanbiswas.in/uno-dbyll
 
-# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: green
 
-blog_button:
-    title: 博客
-    description: 访问博客
+title : uno-dbyll
 
-nav:
-    - {title: 项目, description: 我的项目, url: 'http://project.onevcat.com'}
-    - {title: 关于, description: 了解更多关于我, url: 'http://about.onevcat.com/'}
-    - {title: 订阅, description: 邮件订阅本站, url: '//store.objccn.io/subscribe'}
 
-# Pagination
-gems: [jekyll-paginate]
-paginate: 10
-paginate_path: "page/:num/"
 
-# Comment
-comment:
-    disqus: onevcat
-    # duoshuo:
-# Social
-social:
-    weibo: onevcat
-    github: onevcat
-    twitter: onevcat
-    gplus: 107108267983477358170
-    mail: onev@onevcat.com
-
-# Google Analytics
-ga:
-    id: UA-25719337-1
-    host: onevcat.com
+author:
+  name: Ankan Biswas
+  role: Jekyll Theme
+  email: support@ankanbiswas.in
+  github: talk2ankan
+  twitter: talk2ankan
+  facebook: talk2ankan
+  googleplus: +AnkanBiswasWorkspace
+  bio: "Simple, clean, responsive and stylist theme for jekyll. "
+  uno-dbyll: https://raw.githubusercontent.com/talk2ankan/uno-dbyll/gh-pages/uno-dbyll.png
